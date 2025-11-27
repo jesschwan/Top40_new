@@ -1,25 +1,28 @@
 <?php
     require_once "SqlConnection.php";
 
-    function getData4KW(){
+    function getData4KW($openDbConnection){
 
     }
 
-    function getNextEarlierWeek(){
+    function getNextEarlierWeek($openDbConnection){
 
     }
 
-    function hasNoPreviousWeek(){
+    function hasNoPreviousWeek($openDbConnection){
 
     }
 
-    function getPreviousChartPosition(){
+    function getPreviousChartPosition($openDbConnection){
 
     }
 
-    function getPrevWeekLabel(){
+    function getPrevWeekLabel($openDbConnection){
 
     }
+
+    // Open database connection
+    $openDbConnection = getSqlConnection();
 ?>
 
 <!-- HTML starts here ------------->
